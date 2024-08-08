@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelpChatGPT</string>
+    <string name="app">HelpChatGPT!</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="forgotPassword">¿Olvidaste tu contraseña?</string>
+    <string name="resetPassword">Enviar contraseña</string>
+    <string name="acept">He leido y acepto los</string>
+    <string name="terms">terminos y condiciones de uso.</string>
+    <string name="empty_email"></string>
+    <string name="email">Email</string>
+    <string name="invalid_email">mmm me parece que el email esta mal escrito</string>
+    <string name="reset_password">Enviar contraseña</string>
+
+    <string name="google">GOOGLE</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="errorregister">error something has gone wrong</string>
+    <string name="title">Términos y condiciones de uso</string>
+    <string name="terms1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</string>
+    <string name="terms2">in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est laborum."</string>
+    <string name="terms3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
+        et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia</string>
+    <string name="helpAdelgazar">ayudame a crear un plan para adelgazar</string>
+    <string name="helpConfianza">me puedo fiar de todo lo que dices en todas las preguntas</string>
+    <string name="helpSeguridad">dame formas humorísticas de sentirme más seguro al hablar en público</string>
+</resources>
