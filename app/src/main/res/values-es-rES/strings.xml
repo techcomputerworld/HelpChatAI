@@ -11,6 +11,7 @@
     <string name="email">Email</string>
     <string name="invalid_email">mmm me parece que el email esta mal escrito</string>
     <string name="reset_password">Enviar contraseña</string>
+    <string name="home_title">ChatGPT</string>
 
     <string name="google">GOOGLE</string>
     <string name="facebook">FACEBOOK</string>

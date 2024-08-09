@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">HelpChatGPT</string>
+    ChatGPT
+    <string name="home_title">ChatGPT</string>
+
     <string name="app">HelpChatGPT!</string>
     <string name="contraseña">Password</string>
     <string name="forgotPassword">did you forget your password?</string>
