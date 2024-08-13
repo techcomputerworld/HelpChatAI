@@ -3,6 +3,7 @@ package com.techcomputerworld.helpchatai
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
@@ -50,7 +51,8 @@ class HomeActivity : AppCompatActivity() {
 
     private fun goChatGpt() {
         // Implementa la navegación a ChatGptActivity cuando esté disponible
-        // val chatGptIntent = Intent(this, ChatGptActivity::class.java)
-        // startActivity(chatGptIntent)
+        val chatGptIntent = Intent(this, ChatGptActivity::class.java)
+        startActivity(chatGptIntent)
+
     }
 }

@@ -55,8 +55,8 @@ class AuthActivity : AppCompatActivity() {
     private fun setupUI() {
         binding.apply {
             // Añadir valores predeterminados para pruebas rápidas // tienes que dar en siguiente o intro el el campo texto email y contraseña para que se active el login
-            emailEditText.setText("david1@test.com")  // Bórralo después de las pruebas
-            passwordEditText.setText("123456")        // Bórralo después de las pruebas
+            //emailEditText.setText("david1@test.com")  // Bórralo después de las pruebas
+            //passwordEditText.setText("123456")        // Bórralo después de las pruebas
 
             // Configurar TextWatchers para habilitar/deshabilitar el botón de login según el estado de los campos de texto
             emailEditText.addTextChangedListener(textWatcher)
@@ -122,9 +122,11 @@ class AuthActivity : AppCompatActivity() {
                     goHome(email, "email")
                 } else {
                     showToast("Authentication failed")
+
                 }
             }.addOnFailureListener {
                 showToast("Login failed: ${it.message}")
+                Log.d("auth", "${it.message}")
             }
     }
 
@@ -136,6 +138,9 @@ class AuthActivity : AppCompatActivity() {
             showToast("Email and password must not be empty")
             return
         }
+        //Here Validate Email
+        //aqui probamos a validad el email y si no valida le damos un mensaje al usuario de que tiene que poner un email valido
+        checkEmail(email)
 
         auth.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
@@ -223,5 +228,18 @@ class AuthActivity : AppCompatActivity() {
             .setPositiveButton("Accept", null)
             .create()
             .show()
+    }
+    //este metodo quiero implementarlo de alguna manera para que chequear si el email es valido que no sé como hacerlo.
+    fun checkEmail(email: String) {
+        val isValid = ValidateEmail.isEmail(email)
+        if (isValid) {
+            showToast("The email is valid")
+
+            //println("El correo electrónico es válido.")
+        } else {
+            showToast("The email is not valid")
+            return
+            //println("El correo electrónico no es válido.")
+        }
     }
 }

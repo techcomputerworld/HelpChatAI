@@ -14,7 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Helpchatai"
         tools:targetApi="31">
-
+        <activity
+            android:name=".ChatGptActivity"
+            android:exported="false" />
         <activity
             android:name=".TermsActivity"
             android:exported="false" />

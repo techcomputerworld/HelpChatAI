@@ -9,6 +9,7 @@ Esta en fase de desarrollo del codigo fuente.
 ## Uso
 
 Es un proyecto en fase todavia temprana de desarrollo.
+En la activity de AuthActivity he puesto 2 botones mu
 
 ## Contribuciones
 
